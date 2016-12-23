@@ -1,0 +1,304 @@
+Binary file solr/contrib/uima/lib/AlchemyAPIAnnotator-2.3.1.jar matches
+solr/example/files/conf/lang/stopwords_id.txt:263:sambil
+solr/example/example-DIH/solr/mail/conf/lang/stopwords_id.txt:263:sambil
+solr/example/example-DIH/solr/solr/conf/lang/stopwords_id.txt:263:sambil
+solr/example/example-DIH/solr/db/conf/lang/stopwords_id.txt:263:sambil
+solr/example/example-DIH/solr/rss/conf/lang/stopwords_id.txt:263:sambil
+solr/server/solr/strap/conf/lang/stopwords_id.txt:263:sambil
+solr/server/solr/configsets/data_driven_schema_configs/conf/lang/stopwords_id.txt:263:sambil
+solr/server/solr/configsets/sample_techproducts_configs/conf/lang/stopwords_id.txt:263:sambil
+solr/LUCENE_CHANGES.txt:11408:    disambiguate inner class scorer's use of doc() in BooleanScorer2,
+solr/CHANGES.txt:9788:61. SOLR-1216 :  disambiguate the replication command names. 'snappull' becomes 'fetchindex' 'abortsnappull' becomes 'abortfetch' (noble) 
+catalogs/solr/products/variable.txt:17:EMAIL_INFO	samb	Company
+catalogs/solr/products/variable.txt:18:EMAIL_SERVICE	samb	Company
+catalogs/solr/products/variable.txt:34:MAILING_FROM	Solr Store <samb>	Mailings
+catalogs/solr/products/variable.txt:47:ORDERS_TO	samb	Order
+catalogs/solr/products/access.asc:2:samb	njILENXKHk3XQ	Site Admin	977216772	1																
+catalogs/solr/config/additional_fields:19:	samb	interch
+catalogs/solr/config/additional_fields:47:	samb	interch
+catalogs/solr/config/additional_fields:59:samb	interchange	admin	interch
+catalogs/solr/config/add_global_usertag:3:CONFDIR=/home/samb/d/projects/solrstrap/catalogs/solr/config
+catalogs/solr/config/add_global_usertag:4:TAGDIR=/home/samb/d/projects/solrstrap/interchange/code/template_tag/strap
+catalogs/solr/config/add_global_usertag:24:	mkdir -p /home/samb/d/projects/solrstrap/interchange/code/template_tag/strap \
+catalogs/solr/config/add_global_usertag:30:	if test -f /home/samb/d/projects/solrstrap/interchange/usertag/$f
+catalogs/solr/config/add_global_usertag:40:	if test -f /home/samb/d/projects/solrstrap/interchange/filter/$f
+catalogs/solr/config/makedirs:9:		CATUSER=samb
+catalogs/solr/config/makedirs:13:		CATUSER=samb
+catalogs/solr/config/makedirs:16:		CATUSER=samb
+catalogs/solr/config/makedirs:31:ln -s /home/samb/d/projects/solrstrap/htdocs/images /home/samb/d/projects/solrstrap/catalogs/solr
+catalogs/solr/config/makedirs:34:ln -s /home/samb/d/projects/solrstrap/interchange /home/samb/d/projects/solrstrap/catalogs/solr/i
+catalogs/solr/config/makedirs:48:	RUNDIR='/home/samb/d/projects/solrstrap/catalogs/solr/run'
+catalogs/solr/config/makedirs:65:	ln    -s     $LOGDIR/error.log /home/samb/d/projects/solrstrap/catalogs/solr
+catalogs/solr/config/makedirs:66:	ln    -s     $LOGDIR/logs      /home/samb/d/projects/solrstrap/catalogs/solr
+catalogs/solr/config/makedirs:67:	ln    -s     $LOGDIR/orders    /home/samb/d/projects/solrstrap/catalogs/solr
+catalogs/solr/config/makedirs:77:	LOGDIR='/home/samb/d/projects/solrstrap/catalogs/solr'
+catalogs/solr/config/makedirs:91:chmod $FMODE /home/samb/d/projects/solrstrap/catalogs/solr/catalog.cfg
+catalogs/solr/config/makedirs:95:perl -e '@c=("A".."Z","a".."z",0..9);$p.=$c[rand(scalar @c)] for 1..32; print $p' > /home/samb/d/projects/solrstrap/catalogs/solr/variables/BCRYPT_PEPPER
+catalogs/solr/config/makedirs:102:	ln    -s $CACHEDIR/session /home/samb/d/projects/solrstrap/catalogs/solr
+catalogs/solr/config/makedirs:104:	ln    -s $CACHEDIR/tmp     /home/samb/d/projects/solrstrap/catalogs/solr
+catalogs/solr/config/makedirs:106:	CACHEDIR='/home/samb/d/projects/solrstrap/catalogs/solr'
+catalogs/solr/config/makedirs:124:if test -d "/home/samb/d/projects/solrstrap/catalogs/solr/.git"
+catalogs/solr/config/makedirs:126:	rm -rf /home/samb/d/projects/solrstrap/catalogs/solr/.git
+catalogs/solr/config/postcopy_commands:1:sh /home/samb/d/projects/solrstrap/catalogs/solr/config/makedirs
+catalogs/solr/config/postcopy_commands:4:sh /home/samb/d/projects/solrstrap/catalogs/solr/config/add_global_usertag
+.git/logs/refs/heads/master:1:0000000000000000000000000000000000000000 533c3b2e7dab76e52dfc5e9f8bee60416f752cd7 Sam Batschelet <samb@endpoint.com> 1482500185 -0500	clone: from https://github.com/sbatschelet/solrstrap.git
+.git/logs/refs/heads/master:2:533c3b2e7dab76e52dfc5e9f8bee60416f752cd7 fc7edfb613a1cc04745c424459f156bd6c935356 Sam Batschelet <samb@endpoint.com> 1482507338 -0500	commit: Init
+.git/logs/refs/heads/master:3:fc7edfb613a1cc04745c424459f156bd6c935356 533c3b2e7dab76e52dfc5e9f8bee60416f752cd7 Sam Batschelet <samb@endpoint.com> 1482507389 -0500	reset: moving to HEAD~1
+.git/logs/refs/remotes/origin/HEAD:1:0000000000000000000000000000000000000000 533c3b2e7dab76e52dfc5e9f8bee60416f752cd7 Sam Batschelet <samb@endpoint.com> 1482500185 -0500	clone: from https://github.com/sbatschelet/solrstrap.git
+.git/logs/HEAD:1:0000000000000000000000000000000000000000 533c3b2e7dab76e52dfc5e9f8bee60416f752cd7 Sam Batschelet <samb@endpoint.com> 1482500185 -0500	clone: from https://github.com/sbatschelet/solrstrap.git
+.git/logs/HEAD:2:533c3b2e7dab76e52dfc5e9f8bee60416f752cd7 fc7edfb613a1cc04745c424459f156bd6c935356 Sam Batschelet <samb@endpoint.com> 1482507338 -0500	commit: Init
+.git/logs/HEAD:3:fc7edfb613a1cc04745c424459f156bd6c935356 533c3b2e7dab76e52dfc5e9f8bee60416f752cd7 Sam Batschelet <samb@endpoint.com> 1482507389 -0500	reset: moving to HEAD~1
+interchange/src/config.h:38:#define LINK_FILE      "/home/samb/d/projects/solrstrap/interchange/etc/socket"
+interchange/src/vlink.pl:29:my $LINK_FILE    = '/home/samb/d/projects/solrstrap/interchange/etc/socket';
+interchange/_uid:1:samb
+interchange/bin/offline:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/offline:29:use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+interchange/bin/offline:31:use lib '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/offline:56:	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/localize:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/localize:26:use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+interchange/bin/localize:28:use lib '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/localize:41:	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/expireall:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/expireall:26:use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+interchange/bin/expireall:28:use lib '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/expireall:40:	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/ic_mod_perl:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/ic_mod_perl:169:require '/home/samb/d/projects/solrstrap/interchange/bin/interchange';
+interchange/bin/makecat:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/makecat:24:use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+interchange/bin/makecat:26:use lib '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/makecat:49:	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/makecat:52:	$Global::ProgRoot = '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/configdump:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/configdump:26:use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+interchange/bin/configdump:28:use lib '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/configdump:40:	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/findtags:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/findtags:26:use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+interchange/bin/findtags:28:use lib '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/findtags:38:	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/update:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/update:26:use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+interchange/bin/update:28:use lib '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/update:46:	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/compile_link:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/compile_link:26:use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+interchange/bin/compile_link:28:use lib '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/compile_link:45:		LINK_FILE      => '/home/samb/d/projects/solrstrap/interchange/etc/socket',
+interchange/bin/compile_link:47:		SRC_DIR        => '/home/samb/d/projects/solrstrap/interchange/src',
+interchange/bin/compile_link:49:		INSTALLPRIVLIB => '/home/samb/d/projects/solrstrap/interchange/lib',
+interchange/bin/compile_link:51:		INSTALLARCHLIB => '/home/samb/d/projects/solrstrap/interchange',
+interchange/bin/compile_link:53:		INSTALLMAN1DIR => '/home/samb/d/projects/solrstrap/interchange/man',
+interchange/bin/compile_link:55:		INSTALLSCRIPT => '/home/samb/d/projects/solrstrap/interchange/bin',
+interchange/bin/compile_link:57:		INSTALLBIN => '/home/samb/d/projects/solrstrap/interchange/bin',
+interchange/bin/expire:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/expire:29:use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+interchange/bin/expire:31:use lib '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/expire:40:	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/crontab:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/crontab:23:use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+interchange/bin/crontab:25:use lib '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/crontab:32:	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/restart:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/restart:31:	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/restart:33:	$Global::VendBin = $Global::VendBin || '/home/samb/d/projects/solrstrap/interchange/bin';
+interchange/bin/interchange.bin:42:		unshift @INC, '/home/samb/d/projects/solrstrap/interchange/lib';
+interchange/bin/interchange.bin:50:		unshift @INC, '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/interchange.bin:75:	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/config_prog:1:#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
+interchange/bin/config_prog:26:use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+interchange/bin/config_prog:28:use lib '/home/samb/d/projects/solrstrap/interchange';
+interchange/bin/config_prog:41:		INSTALLPRIVLIB => '/home/samb/d/projects/solrstrap/interchange/lib',
+interchange/bin/config_prog:43:		INSTALLARCHLIB => '/home/samb/d/projects/solrstrap/interchange',
+interchange/bin/config_prog:45:		INSTALLMAN1DIR => '/home/samb/d/projects/solrstrap/interchange/man',
+interchange/bin/config_prog:47:		INSTALLSCRIPT => '/home/samb/d/projects/solrstrap/interchange/bin',
+interchange/bin/config_prog:49:		INSTALLBIN => '/home/samb/d/projects/solrstrap/interchange/bin',
+interchange/lib/UI/locales/it_IT.cfg:20:"Variabili d'%sambiente%s",
+Binary file interchange/lib/UI/locales/pt_BR.cfg matches
+interchange/etc/makecat.cfg.new:23:basedir=/home/samb/catalogs
+interchange/etc/makecat.cfg.new:30:interchangeuser=samb
+interchange/etc/makecat.cfg.new:33:vendroot=/home/samb/d/projects/solrstrap/interchange
+interchange/etc/makecat.cfg.new:157:# run by samb at Fri Dec 23 08:38:01 2016
+interchange/etc/makecat.cfg.new:160:cgidir=/home/samb/d/projects/solrstrap/cgi-bin
+interchange/etc/makecat.cfg.new:164:imagedir=/home/samb/d/projects/solrstrap/htdocs/images
+interchange/etc/makecat.cfg.new:166:mailorderto=samb
+interchange/etc/makecat.cfg.new:170:samplehtml=/home/samb/d/projects/solrstrap/htdocs/solr
+interchange/etc/makecat.cfg.new:173:catroot=/home/samb/d/projects/solrstrap/catalogs/solr
+interchange/etc/makecat.cfg:23:basedir=/home/samb/catalogs
+interchange/etc/makecat.cfg:30:interchangeuser=samb
+interchange/etc/makecat.cfg:33:vendroot=/home/samb/d/projects/solrstrap/interchange
+interchange/etc/makecat.cfg:157:# run by samb at Fri Dec 23 08:38:01 2016
+interchange/etc/makecat.cfg:160:cgidir=/home/samb/d/projects/solrstrap/cgi-bin
+interchange/etc/makecat.cfg:164:imagedir=/home/samb/d/projects/solrstrap/htdocs/images
+interchange/etc/makecat.cfg:166:mailorderto=samb
+interchange/etc/makecat.cfg:170:samplehtml=/home/samb/d/projects/solrstrap/htdocs/solr
+interchange/etc/makecat.cfg:173:catroot=/home/samb/d/projects/solrstrap/catalogs/solr
+interchange/auto/Interchange/.packlist:1:/home/samb/d/projects/solrstrap/interchange/bin/compile_link
+interchange/auto/Interchange/.packlist:2:/home/samb/d/projects/solrstrap/interchange/bin/config_prog
+interchange/auto/Interchange/.packlist:3:/home/samb/d/projects/solrstrap/interchange/bin/configdump
+interchange/auto/Interchange/.packlist:4:/home/samb/d/projects/solrstrap/interchange/bin/crontab
+interchange/auto/Interchange/.packlist:5:/home/samb/d/projects/solrstrap/interchange/bin/expire
+interchange/auto/Interchange/.packlist:6:/home/samb/d/projects/solrstrap/interchange/bin/expireall
+interchange/auto/Interchange/.packlist:7:/home/samb/d/projects/solrstrap/interchange/bin/findtags
+interchange/auto/Interchange/.packlist:8:/home/samb/d/projects/solrstrap/interchange/bin/ic_mod_perl
+interchange/auto/Interchange/.packlist:9:/home/samb/d/projects/solrstrap/interchange/bin/interchange
+interchange/auto/Interchange/.packlist:10:/home/samb/d/projects/solrstrap/interchange/bin/localize
+interchange/auto/Interchange/.packlist:11:/home/samb/d/projects/solrstrap/interchange/bin/makecat
+interchange/auto/Interchange/.packlist:12:/home/samb/d/projects/solrstrap/interchange/bin/offline
+interchange/auto/Interchange/.packlist:13:/home/samb/d/projects/solrstrap/interchange/bin/restart
+interchange/auto/Interchange/.packlist:14:/home/samb/d/projects/solrstrap/interchange/bin/update
+interchange/auto/Interchange/.packlist:15:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Accounting.pm
+interchange/auto/Interchange/.packlist:16:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Accounting/SQL_Ledger.pm
+interchange/auto/Interchange/.packlist:17:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Cart.pm
+interchange/auto/Interchange/.packlist:18:/home/samb/d/projects/solrstrap/interchange/lib/Vend/CharSet.pm
+interchange/auto/Interchange/.packlist:19:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Config.pm
+interchange/auto/Interchange/.packlist:20:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Control.pm
+interchange/auto/Interchange/.packlist:21:/home/samb/d/projects/solrstrap/interchange/lib/Vend/CounterFile.pm
+interchange/auto/Interchange/.packlist:22:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Cron.pm
+interchange/auto/Interchange/.packlist:23:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Data.pm
+interchange/auto/Interchange/.packlist:24:/home/samb/d/projects/solrstrap/interchange/lib/Vend/DbSearch.pm
+interchange/auto/Interchange/.packlist:25:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Dispatch.pm
+interchange/auto/Interchange/.packlist:26:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Document.pm
+interchange/auto/Interchange/.packlist:27:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Email.pm
+interchange/auto/Interchange/.packlist:28:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Error.pm
+interchange/auto/Interchange/.packlist:29:/home/samb/d/projects/solrstrap/interchange/lib/Vend/External.pm
+interchange/auto/Interchange/.packlist:30:/home/samb/d/projects/solrstrap/interchange/lib/Vend/File.pm
+interchange/auto/Interchange/.packlist:31:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Form.pm
+interchange/auto/Interchange/.packlist:32:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Glimpse.pm
+interchange/auto/Interchange/.packlist:33:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Imagemap.pm
+interchange/auto/Interchange/.packlist:34:/home/samb/d/projects/solrstrap/interchange/lib/Vend/InDev.pm
+interchange/auto/Interchange/.packlist:35:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Interpolate.pm
+interchange/auto/Interchange/.packlist:36:/home/samb/d/projects/solrstrap/interchange/lib/Vend/MakeCat.pm
+interchange/auto/Interchange/.packlist:37:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Menu.pm
+interchange/auto/Interchange/.packlist:38:/home/samb/d/projects/solrstrap/interchange/lib/Vend/ModPerl.pm
+interchange/auto/Interchange/.packlist:39:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Options.pm
+interchange/auto/Interchange/.packlist:40:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Options/Matrix.pm
+interchange/auto/Interchange/.packlist:41:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Options/Old48.pm
+interchange/auto/Interchange/.packlist:42:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Options/Simple.pm
+interchange/auto/Interchange/.packlist:43:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Order.pm
+interchange/auto/Interchange/.packlist:44:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Page.pm
+interchange/auto/Interchange/.packlist:45:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Parse.pm
+interchange/auto/Interchange/.packlist:46:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Parser.pm
+interchange/auto/Interchange/.packlist:47:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment.pm
+interchange/auto/Interchange/.packlist:48:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/AuthorizeNet.pm
+interchange/auto/Interchange/.packlist:49:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/BusinessOnlinePayment.pm
+interchange/auto/Interchange/.packlist:50:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/Cardsave.pm
+interchange/auto/Interchange/.packlist:51:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/CyberSource.pm
+interchange/auto/Interchange/.packlist:52:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/ECHO.pm
+interchange/auto/Interchange/.packlist:53:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/EFSNet.pm
+interchange/auto/Interchange/.packlist:54:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/Ezic.pm
+interchange/auto/Interchange/.packlist:55:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/Getitcard.pm
+interchange/auto/Interchange/.packlist:56:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/HSBC.pm
+interchange/auto/Interchange/.packlist:57:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/ICS.pm
+interchange/auto/Interchange/.packlist:58:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/Linkpoint.pm
+interchange/auto/Interchange/.packlist:59:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/MCVE.pm
+interchange/auto/Interchange/.packlist:60:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/Merchantware.pm
+interchange/auto/Interchange/.packlist:61:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/NetBilling.pm
+interchange/auto/Interchange/.packlist:62:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/PRI.pm
+interchange/auto/Interchange/.packlist:63:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/PSiGate.pm
+interchange/auto/Interchange/.packlist:64:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/PayflowPro.pm
+interchange/auto/Interchange/.packlist:65:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/PaypalExpress.pm
+interchange/auto/Interchange/.packlist:66:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/Protx2.pm
+interchange/auto/Interchange/.packlist:67:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/Sage.pm
+interchange/auto/Interchange/.packlist:68:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/SagePay.pm
+interchange/auto/Interchange/.packlist:69:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/Skipjack.pm
+interchange/auto/Interchange/.packlist:70:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/TCLink.pm
+interchange/auto/Interchange/.packlist:71:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/TestPayment.pm
+interchange/auto/Interchange/.packlist:72:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/Worldpay.pm
+interchange/auto/Interchange/.packlist:73:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Payment/iTransact.pm
+interchange/auto/Interchange/.packlist:74:/home/samb/d/projects/solrstrap/interchange/lib/Vend/RefSearch.pm
+interchange/auto/Interchange/.packlist:75:/home/samb/d/projects/solrstrap/interchange/lib/Vend/SOAP.pm
+interchange/auto/Interchange/.packlist:76:/home/samb/d/projects/solrstrap/interchange/lib/Vend/SOAP/Transport.pm
+interchange/auto/Interchange/.packlist:77:/home/samb/d/projects/solrstrap/interchange/lib/Vend/SQL_Parser.pm
+interchange/auto/Interchange/.packlist:78:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Safe.pm
+interchange/auto/Interchange/.packlist:79:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Scan.pm
+interchange/auto/Interchange/.packlist:80:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Search.pm
+interchange/auto/Interchange/.packlist:81:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Server.pm
+interchange/auto/Interchange/.packlist:82:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Session.pm
+interchange/auto/Interchange/.packlist:83:/home/samb/d/projects/solrstrap/interchange/lib/Vend/SessionDB.pm
+interchange/auto/Interchange/.packlist:84:/home/samb/d/projects/solrstrap/interchange/lib/Vend/SessionFile.pm
+interchange/auto/Interchange/.packlist:85:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Ship.pm
+interchange/auto/Interchange/.packlist:86:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Ship/Postal.pm
+interchange/auto/Interchange/.packlist:87:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Ship/QueryUPS.pm
+interchange/auto/Interchange/.packlist:88:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Subs.pm
+interchange/auto/Interchange/.packlist:89:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Swish.pm
+interchange/auto/Interchange/.packlist:90:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Table/Common.pm
+interchange/auto/Interchange/.packlist:91:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Table/DBI.pm
+interchange/auto/Interchange/.packlist:92:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Table/DBI_CompositeKey.pm
+interchange/auto/Interchange/.packlist:93:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Table/DB_File.pm
+interchange/auto/Interchange/.packlist:94:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Table/Editor.pm
+interchange/auto/Interchange/.packlist:95:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Table/GDBM.pm
+interchange/auto/Interchange/.packlist:96:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Table/InMemory.pm
+interchange/auto/Interchange/.packlist:97:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Table/LDAP.pm
+interchange/auto/Interchange/.packlist:98:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Table/SDBM.pm
+interchange/auto/Interchange/.packlist:99:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Table/Shadow.pm
+interchange/auto/Interchange/.packlist:100:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Tags.pm
+interchange/auto/Interchange/.packlist:101:/home/samb/d/projects/solrstrap/interchange/lib/Vend/TextSearch.pm
+interchange/auto/Interchange/.packlist:102:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Track.pm
+interchange/auto/Interchange/.packlist:103:/home/samb/d/projects/solrstrap/interchange/lib/Vend/UserControl.pm
+interchange/auto/Interchange/.packlist:104:/home/samb/d/projects/solrstrap/interchange/lib/Vend/UserDB.pm
+interchange/auto/Interchange/.packlist:105:/home/samb/d/projects/solrstrap/interchange/lib/Vend/Util.pm
+interchange/auto/Interchange/.packlist:106:/home/samb/d/projects/solrstrap/interchange/lib/auto/Vend/SOAP/autosplit.ix
+interchange/auto/Interchange/.packlist:107:/home/samb/d/projects/solrstrap/interchange/lib/auto/Vend/Tags/autosplit.ix
+interchange/auto/Interchange/.packlist:108:/home/samb/d/projects/solrstrap/interchange/lib/hints.pl
+interchange/auto/Interchange/.packlist:109:/home/samb/d/projects/solrstrap/interchange/lib/install_lsb.pl
+interchange/auto/Interchange/.packlist:110:/home/samb/d/projects/solrstrap/interchange/lib/relocate.pl
+interchange/auto/Interchange/.packlist:111:/home/samb/d/projects/solrstrap/interchange/man/Vend::Accounting::SQL_Ledger.3
+interchange/auto/Interchange/.packlist:112:/home/samb/d/projects/solrstrap/interchange/man/Vend::Cart.3
+interchange/auto/Interchange/.packlist:113:/home/samb/d/projects/solrstrap/interchange/man/Vend::CounterFile.3
+interchange/auto/Interchange/.packlist:114:/home/samb/d/projects/solrstrap/interchange/man/Vend::Form.3
+interchange/auto/Interchange/.packlist:115:/home/samb/d/projects/solrstrap/interchange/man/Vend::Interpolate.3
+interchange/auto/Interchange/.packlist:116:/home/samb/d/projects/solrstrap/interchange/man/Vend::Options::Matrix.3
+interchange/auto/Interchange/.packlist:117:/home/samb/d/projects/solrstrap/interchange/man/Vend::Options::Old48.3
+interchange/auto/Interchange/.packlist:118:/home/samb/d/projects/solrstrap/interchange/man/Vend::Options::Simple.3
+interchange/auto/Interchange/.packlist:119:/home/samb/d/projects/solrstrap/interchange/man/Vend::Parser.3
+interchange/auto/Interchange/.packlist:120:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::AuthorizeNet.3
+interchange/auto/Interchange/.packlist:121:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::BusinessOnlinePayment.3
+interchange/auto/Interchange/.packlist:122:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::Cardsave.3
+interchange/auto/Interchange/.packlist:123:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::CyberSource.3
+interchange/auto/Interchange/.packlist:124:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::ECHO.3
+interchange/auto/Interchange/.packlist:125:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::EFSNet.3
+interchange/auto/Interchange/.packlist:126:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::Ezic.3
+interchange/auto/Interchange/.packlist:127:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::Getitcard.3
+interchange/auto/Interchange/.packlist:128:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::HSBC.3
+interchange/auto/Interchange/.packlist:129:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::ICS.3
+interchange/auto/Interchange/.packlist:130:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::Linkpoint.3
+interchange/auto/Interchange/.packlist:131:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::MCVE.3
+interchange/auto/Interchange/.packlist:132:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::Merchantware.3
+interchange/auto/Interchange/.packlist:133:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::NetBilling.3
+interchange/auto/Interchange/.packlist:134:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::PRI.3
+interchange/auto/Interchange/.packlist:135:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::PSiGate.3
+interchange/auto/Interchange/.packlist:136:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::PayflowPro.3
+interchange/auto/Interchange/.packlist:137:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::PaypalExpress.3
+interchange/auto/Interchange/.packlist:138:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::Protx2.3
+interchange/auto/Interchange/.packlist:139:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::Sage.3
+interchange/auto/Interchange/.packlist:140:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::SagePay.3
+interchange/auto/Interchange/.packlist:141:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::Skipjack.3
+interchange/auto/Interchange/.packlist:142:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::TCLink.3
+interchange/auto/Interchange/.packlist:143:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::TestPayment.3
+interchange/auto/Interchange/.packlist:144:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::Worldpay.3
+interchange/auto/Interchange/.packlist:145:/home/samb/d/projects/solrstrap/interchange/man/Vend::Payment::iTransact.3
+interchange/auto/Interchange/.packlist:146:/home/samb/d/projects/solrstrap/interchange/man/Vend::SOAP::Transport.3
+interchange/auto/Interchange/.packlist:147:/home/samb/d/projects/solrstrap/interchange/man/Vend::SQL_Parser.3
+interchange/auto/Interchange/.packlist:148:/home/samb/d/projects/solrstrap/interchange/man/Vend::Ship.3
+interchange/auto/Interchange/.packlist:149:/home/samb/d/projects/solrstrap/interchange/man/Vend::Ship::Postal.3
+interchange/auto/Interchange/.packlist:150:/home/samb/d/projects/solrstrap/interchange/man/Vend::Ship::QueryUPS.3
+interchange/auto/Interchange/.packlist:151:/home/samb/d/projects/solrstrap/interchange/man/Vend::Table::DBI.3
+interchange/auto/Interchange/.packlist:152:/home/samb/d/projects/solrstrap/interchange/man/Vend::Table::Editor.3
+interchange/auto/Interchange/.packlist:153:/home/samb/d/projects/solrstrap/interchange/man/Vend::UserControl.3
+interchange/auto/Interchange/.packlist:154:/home/samb/d/projects/solrstrap/interchange/man/Vend::UserDB.3
+interchange/auto/Interchange/.packlist:155:/home/samb/d/projects/solrstrap/interchange/man/compile_link.1
+interchange/auto/Interchange/.packlist:156:/home/samb/d/projects/solrstrap/interchange/man/config_prog.1
+interchange/auto/Interchange/.packlist:157:/home/samb/d/projects/solrstrap/interchange/man/configdump.1
+interchange/auto/Interchange/.packlist:158:/home/samb/d/projects/solrstrap/interchange/man/crontab.1
+interchange/auto/Interchange/.packlist:159:/home/samb/d/projects/solrstrap/interchange/man/expire.1
+interchange/auto/Interchange/.packlist:160:/home/samb/d/projects/solrstrap/interchange/man/expireall.1
+interchange/auto/Interchange/.packlist:161:/home/samb/d/projects/solrstrap/interchange/man/findtags.1
+interchange/auto/Interchange/.packlist:162:/home/samb/d/projects/solrstrap/interchange/man/ic_mod_perl.1
+interchange/auto/Interchange/.packlist:163:/home/samb/d/projects/solrstrap/interchange/man/interchange.1
+interchange/auto/Interchange/.packlist:164:/home/samb/d/projects/solrstrap/interchange/man/localize.1
+interchange/auto/Interchange/.packlist:165:/home/samb/d/projects/solrstrap/interchange/man/makecat.1
+interchange/auto/Interchange/.packlist:166:/home/samb/d/projects/solrstrap/interchange/man/offline.1
+interchange/auto/Interchange/.packlist:167:/home/samb/d/projects/solrstrap/interchange/man/restart.1
+interchange/auto/Interchange/.packlist:168:/home/samb/d/projects/solrstrap/interchange/man/update.1

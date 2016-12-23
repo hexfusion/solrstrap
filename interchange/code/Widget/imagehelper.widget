@@ -1,0 +1,89 @@
+# Copyright 2005-2016 Interchange Development Group and others
+# 
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.  See the LICENSE file for details.
+
+CodeDef imagehelper  Widget  1
+CodeDef imagehelper  Description Image upload
+CodeDef imagehelper  Routine <<EOR
+sub  {
+    my ($opt) = @_;
+
+	my $name = $opt->{name};
+	my $size = $opt->{cols} || $opt->{width};
+	my $val  = $opt->{value};
+	my $path = $opt->{image_path} || $opt->{outboard};
+	my $name_from = $opt->{name_from_field} || '';
+	my $imagebase = $opt->{image_base} || $opt->{prepend};
+
+	Vend::Interpolate::vars_and_comments(\$path);
+	$path =~ s/^\s+//;
+	Vend::Interpolate::vars_and_comments(\$imagebase);
+	if ($imagebase ||= '') {
+		$imagebase =~ s/^\s+//;
+		$imagebase =~ s:[\s/]*$:/:;
+	}
+
+	my $of_widget;
+	my $orig_path = $path;
+	if($path =~ s!/\*(?:\.([^/]+))?$!!) {
+		my $spec = $1;
+		my @files = grep {length} UI::Primitive::list_images($path, $spec);
+		unless (@files) {
+			@files = grep {length} UI::Primitive::list_glob($orig_path, $opt->{image_path});
+		}
+		unshift(@files, "=(none)");
+		my $passed = join ",", map { s/,/&#44;/g; $_} @files;
+		my $opt = {
+			type => 'select',
+			default => $val,
+			attribute => 'mv_data_file_oldfile',
+			passed => $passed,
+		};
+		$of_widget = Vend::Interpolate::tag_accessories(
+				undef, undef, $opt, { 'mv_data_file_oldfile' => $val } );
+	}
+	else {
+		$of_widget = qq{<input type="hidden" name="mv_data_file_oldfile" value="$val"$Vend::Xtrailer>};
+	}
+
+	my $clean_path = $path;
+	$clean_path =~ s![\*/]+$!!;
+	$size = qq{ size="$size"} if $size > 0;
+
+	# Ensure that the form is using multipart/form-data
+	$::Scratch->{mv_force_file_upload} = 1;
+	push @Vend::TmpScratch, 'mv_force_file_upload';
+
+	if ($val) {
+		qq{<a href="$imagebase$clean_path/$val">$val</a>&nbsp;<input type="hidden" name="mv_data_file_field" value="$name"$Vend::Xtrailer><input type="hidden" name="mv_data_file_name_from" value="$name_from"$Vend::Xtrailer>
+<input type="hidden" name="mv_data_file_path" value="$clean_path"$Vend::Xtrailer>$of_widget<input type="file" name="$name" value="$val"$Vend::Xtrailer>};
+	}
+    else {
+		qq{<input type="hidden" name="mv_data_file_field" value="$name"$Vend::Xtrailer><input type="hidden" name="mv_data_file_name_from" value="$name_from"$Vend::Xtrailer>
+<input type="hidden" name="mv_data_file_path" value="$clean_path"$Vend::Xtrailer>$of_widget<input type="file" name="$name"$size$Vend::Xtrailer>};
+	}
+}
+EOR
+
+CodeDef imagehelper ExtraMeta <<EOM
+{
+	_order => [ qw/
+			image_path
+			name_from_field
+		/],
+	image_path => {
+		label => 'Image Path',
+		help => 'default is <b>images/items</b> in <i>standard catalog</i>',
+		widget => 'text_30',
+	},
+	name_from_field => {
+		label => 'Name from field',
+		help => 'Usually named from products SKU',
+		widget => 'select',
+		options => 'columns::',
+	},
+}
+EOM
