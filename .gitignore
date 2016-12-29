@@ -2,12 +2,16 @@ bin/solr-ctrl
 cgi-bin/
 httpd/
 catalogs/solr/catalog_local.cfg
+
 interchange/interchange_local.cfg
 interchange/bin/interchange
 interchange/etc/varnames
 interchange/src/config.h
 interchange/src/vlink
 interchange/src/vlink.*
+interchange/src/config.log
+interchange/src/tlink
+interchange/src/tlink.*
 interchange/*.log
 interchange/var
 my.cnf
