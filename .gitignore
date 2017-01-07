@@ -1,8 +1,10 @@
 bin/solr-ctrl
 cgi-bin/
 httpd/
-catalogs/solr/catalog_local.cfg
-
+htdocs/strap/images/items/*x*
+catalogs/strap/catalog_local.cfg
+catalogs/strap/products/.*
+catalogs/strap/var/logs/*
 interchange/interchange_local.cfg
 interchange/bin/interchange
 interchange/etc/varnames
@@ -21,3 +23,5 @@ solr/bin/solr-*.pid
 solr/server/logs/
 solr/server/solr/strap/data/
 solr/server/solr/strap/data/tlog/
+solr/server/solr/strap/conf/
+out
