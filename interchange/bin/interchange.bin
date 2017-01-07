@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/home/samb/.plenv/versions/5.22.2/bin/perl5.22.2
 ##!~_~perlpath~_~
 #
 # Interchange version 5.10.0
@@ -39,7 +39,7 @@ BEGIN {
 		unshift @INC, split /:+/, $ENV{INTERCHANGE_INSTALLPRIVLIB};
 	}
 	else {
-		unshift @INC, '/home/samb/d/projects/solrstrap/interchange/lib';
+		unshift @INC, '/home/samb/camp/interchange/lib';
 #		unshift @INC, '~_~INSTALLPRIVLIB~_~';
 	}
 
@@ -47,7 +47,7 @@ BEGIN {
 		unshift @INC, split /:+/, $ENV{INTERCHANGE_INSTALLARCHLIB};
 	}
 	else {
-		unshift @INC, '/home/samb/d/projects/solrstrap/interchange';
+		unshift @INC, '/home/samb/camp/interchange';
 #		unshift @INC, '~_~INSTALLARCHLIB~_~';
 	}
 }
@@ -72,7 +72,7 @@ BEGIN {
 		shift @INC;
 	}
 	
-	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+	$Global::VendRoot = $Global::VendRoot || '/home/samb/camp/interchange';
 #	$Global::VendRoot = $Global::VendRoot || '~_~INSTALLARCHLIB~_~';
 
 	if( ($Config{usethreads} || $Config{useithreads} || $Config{use5005threads}) ) {

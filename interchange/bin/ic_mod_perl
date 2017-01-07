@@ -166,7 +166,7 @@ EOF
 $Global::mod_perl = 1;
 
 package main;
-require '/home/samb/d/projects/solrstrap/interchange/bin/interchange';
+require '/home/samb/camp/interchange/bin/interchange';
 #require '~_~INSTALLARCHLIB~_~/bin/interchange';
 
 

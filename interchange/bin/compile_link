@@ -23,9 +23,9 @@
 # Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
 # MA  02110-1301  USA.
 
-use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+use lib '/home/samb/camp/interchange/lib';
 #use lib '~_~INSTALLPRIVLIB~_~';
-use lib '/home/samb/d/projects/solrstrap/interchange';
+use lib '/home/samb/camp/interchange';
 #use lib '~_~INSTALLARCHLIB~_~';
 
 use strict;
@@ -42,19 +42,19 @@ BEGIN {
 		LINK_HOST      => '127.0.0.1',
 		LINK_PORT      => 7786,
 		LINK_TIMEOUT   => 30,
-		LINK_FILE      => '/home/samb/d/projects/solrstrap/interchange/etc/socket',
+		LINK_FILE      => '/home/samb/camp/interchange/etc/socket',
 #		LINK_FILE      => '~_~INSTALLARCHLIB~_~/etc/socket',
-		SRC_DIR        => '/home/samb/d/projects/solrstrap/interchange/src',
+		SRC_DIR        => '/home/samb/camp/interchange/src',
 #		SRC_DIR        => '~_~INSTALLARCHLIB~_~/src',
-		INSTALLPRIVLIB => '/home/samb/d/projects/solrstrap/interchange/lib',
+		INSTALLPRIVLIB => '/home/samb/camp/interchange/lib',
 #		INSTALLPRIVLIB => '~_~INSTALLPRIVLIB~_~',
-		INSTALLARCHLIB => '/home/samb/d/projects/solrstrap/interchange',
+		INSTALLARCHLIB => '/home/samb/camp/interchange',
 #		INSTALLARCHLIB => '~_~INSTALLARCHLIB~_~',
-		INSTALLMAN1DIR => '/home/samb/d/projects/solrstrap/interchange/man',
+		INSTALLMAN1DIR => '/home/samb/camp/interchange/man',
 #		INSTALLMAN1DIR => '~_~INSTALLMAN1DIR~_~',
-		INSTALLSCRIPT => '/home/samb/d/projects/solrstrap/interchange/bin',
+		INSTALLSCRIPT => '/home/samb/camp/interchange/bin',
 #		INSTALLSCRIPT => '~_~INSTALLARCHLIB~_~/bin',
-		INSTALLBIN => '/home/samb/d/projects/solrstrap/interchange/bin',
+		INSTALLBIN => '/home/samb/camp/interchange/bin',
 #		INSTALLBIN => '~_~INSTALLBIN~_~',
 	};
 }

@@ -1,0 +1,11 @@
+{MYSQLCREATE}mysqladmin -u root -pfbo51frXOuzm8mlQM+EjVpWxcLknLPN6r1f04e1 create test_strap
+Since you selected the MySQL option, you need to create a database named
+"test_strap". In a default MySQL configuration, any user may create
+and drop and modify test_* databases, but some administrators disable this.
+  
+
+{PGSQL}createdb test_strap
+Since you selected the PostgreSQL option, you need to create a database named
+"test_strap". This will only work if your administrator allowed it.
+
+

@@ -1,0 +1,558 @@
+- - - [07/January/2017:11:43:28 -0500] strap - table 'userdb' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'inventory' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'merchandising' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'pay_certs' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'stock_alert' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'tree' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'orderline' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'country' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'affiliate' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'pricing' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'variants' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'ups_cache' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'pay_cert_redeem' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'transactions' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'state' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'options' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'pay_cert_lock' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'order_returns' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:43:28 -0500] strap - table 'products' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'affiliate' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'products' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'pay_cert_redeem' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'ups_cache' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'orderline' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'stock_alert' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'variants' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'tree' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'pricing' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'pay_cert_lock' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'state' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'country' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'merchandising' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'inventory' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'options' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'transactions' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'order_returns' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'pay_certs' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:45:28 -0500] strap - table 'userdb' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'orderline' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'transactions' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'order_returns' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'products' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'pay_cert_lock' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'stock_alert' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'inventory' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'affiliate' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'options' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'userdb' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'pay_certs' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'state' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'ups_cache' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'merchandising' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'pricing' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'tree' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'pay_cert_redeem' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'variants' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:50:52 -0500] strap - table 'country' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'samb'@'localhost' (using password: NO)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'ups_cache' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'options' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'state' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'pay_cert_lock' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'stock_alert' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'order_returns' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'affiliate' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'country' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'pay_certs' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'merchandising' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'products' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'variants' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'pay_cert_redeem' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'orderline' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'userdb' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'transactions' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'pricing' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'inventory' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:51:30 -0500] strap - table 'tree' failed: connect to dbi:mysql:test_strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'products' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'stock_alert' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'affiliate' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'state' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'options' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'orderline' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'inventory' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'pay_cert_redeem' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'variants' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'merchandising' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'ups_cache' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'tree' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'pay_cert_lock' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'order_returns' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'transactions' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'country' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'pay_certs' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'userdb' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:11:53:04 -0500] strap - table 'pricing' failed: connect to dbi:mysql:strap failed (create) -- Access denied for user 'root'@'localhost' (using password: YES)
+> 
+- - - [07/January/2017:12:02:33 -0500] strap - table inventory created: create table `inventory` ( 
+> `sku` char(64) NOT NULL PRIMARY KEY,
+> `quantity` INT,
+> `stock_message` varchar(255),
+> `account` char(64),
+> `cogs_account` char(64),
+> `min_order` varchar(255)
+> )
+> 
+- - - [07/January/2017:12:02:33 -0500] strap - table orderline created: create table `orderline` ( 
+> `code` varchar(32) NOT NULL PRIMARY KEY,
+> `store_id` varchar(9) DEFAULT '' NOT NULL,
+> `order_number` varchar(24) NOT NULL,
+> `session` varchar(32) NOT NULL,
+> `username` varchar(255) default '' NOT NULL,
+> `shipmode` varchar(255) default '' NOT NULL,
+> `sku` varchar(64) NOT NULL,
+> `quantity` int NOT NULL,
+> `price` decimal(12,2) NOT NULL,
+> `subtotal` decimal(12,2) NOT NULL,
+> `shipping` decimal(12,2),
+> `taxable` varchar(3),
+> `size` varchar(128),
+> `color` varchar(128),
+> `options` varchar(255),
+> `order_date` varchar(32) NOT NULL,
+> `update_date` timestamp,
+> `status` varchar(32),
+> `parent` varchar(9),
+> `affiliate` varchar(128),
+> `campaign` varchar(128),
+> `description` varchar(128)
+> )
+> 
+- - - [07/January/2017:12:02:33 -0500] strap - table pay_cert_lock created: create table `pay_cert_lock` ( 
+> `code` varchar(32) NOT NULL PRIMARY KEY,
+> `pid` varchar(16) NOT NULL,
+> `ip_addr` varchar(64) NOT NULL
+> )
+> 
+- - - [07/January/2017:12:02:33 -0500] strap - table affiliate created: create table `affiliate` ( 
+> `affiliate` varchar(32) NOT NULL PRIMARY KEY,
+> `name` text,
+> `campaigns` text,
+> `coupon_amount` text,
+> `join_date` text,
+> `url` text,
+> `timeout` text,
+> `active` text,
+> `password` text,
+> `image` text
+> )
+> 
+- - - [07/January/2017:12:02:33 -0500] strap - table pay_certs created: create table `pay_certs` ( 
+> `code` varchar(32) NOT NULL PRIMARY KEY,
+> `date_issued` varchar(32) NOT NULL,
+> `check_value` varchar(8) NOT NULL,
+> `order_number` varchar(64) NOT NULL,
+> `amount` decimal(12,2) NOT NULL,
+> `orig_amount` decimal(12,2) NOT NULL,
+> `ip_addr` varchar(32) NOT NULL,
+> `process_flag` varchar(1) default '' NOT NULL,
+> `date_expires` varchar(128) NOT NULL
+> )
+> 
+- - - [07/January/2017:12:02:33 -0500] strap - table userdb created: create table `userdb` ( 
+> `username` varchar(255) NOT NULL PRIMARY KEY,
+> `usernick` varchar(255) NOT NULL,
+> `password` varchar(64) NOT NULL,
+> `expiration` varchar(32),
+> `acl` text,
+> `mod_time` timestamp,
+> `s_nickname` text,
+> `company` varchar(64),
+> `fname` varchar(30),
+> `lname` varchar(30),
+> `address1` varchar(64),
+> `address2` varchar(64),
+> `address3` varchar(64),
+> `city` varchar(30),
+> `state` varchar(20),
+> `zip` varchar(10),
+> `country` varchar(10),
+> `phone_day` varchar(30),
+> `mv_shipmode` varchar(255),
+> `b_nickname` text,
+> `b_fname` varchar(30),
+> `b_lname` varchar(30),
+> `b_company` varchar(64),
+> `b_address1` varchar(64),
+> `b_address2` varchar(64),
+> `b_address3` varchar(64),
+> `b_city` varchar(30),
+> `b_state` varchar(10),
+> `b_zip` varchar(10),
+> `b_country` varchar(10),
+> `b_phone` varchar(30),
+> `p_nickname` text,
+> `email` varchar(255),
+> `fax` varchar(30),
+> `phone_night` varchar(30),
+> `address_book` BLOB,
+> `accounts` BLOB,
+> `preferences` BLOB,
+> `carts` BLOB,
+> `owner` varchar(20),
+> `file_acl` BLOB,
+> `db_acl` BLOB,
+> `mail_list` text,
+> `credit_limit` varchar(16),
+> `inactive` varchar(8),
+> `dealer` varchar(32),
+> `price_level` varchar(30),
+> `updated` varchar(32),
+> `created` varchar(32)
+> )
+> 
+- - - [07/January/2017:12:02:33 -0500] strap - table tree created: create table `tree` ( 
+> `code` INT PRIMARY KEY AUTO_INCREMENT,
+> `parent_fld` varchar(20),
+> `mgroup` varchar(255),
+> `msort` varchar(8),
+> `page` varchar(255),
+> `form` varchar(255),
+> `name` varchar(255),
+> `description` varchar(255),
+> `inactive` int not null default 0,
+> `extended` text,
+> `next_line` varchar(255),
+> `indicator` varchar(255),
+> `exclude_on` varchar(255),
+> `depends_on` varchar(255),
+> `super` varchar(255),
+> `help_name` varchar(255),
+> `img_dn` varchar(255),
+> `img_up` varchar(255),
+> `img_sel` varchar(255),
+> `img_icon` varchar(255),
+> `url` varchar(255),
+> `member` varchar(1)
+> )
+> 
+- - - [07/January/2017:12:02:34 -0500] strap - table order_returns created: create table `order_returns` ( 
+> `code` varchar(14) NOT NULL PRIMARY KEY,
+> `order_number` varchar(14) NOT NULL,
+> `session` varchar(32) NOT NULL,
+> `username` varchar(32) default '' NOT NULL,
+> `rma_number` varchar(32) NOT NULL,
+> `nitems` varchar(9) NOT NULL,
+> `total` varchar(12) NOT NULL,
+> `return_date` varchar(32) NOT NULL,
+> `update_date` timestamp
+> )
+> 
+- - - [07/January/2017:12:02:34 -0500] strap - table merchandising created: create table `merchandising` ( 
+> `sku` char(64) NOT NULL PRIMARY KEY,
+> `featured` CHAR(32) NOT NULL DEFAULT '',
+> `banner_text` text,
+> `banner_image` text,
+> `blurb_begin` text,
+> `blurb_end` text,
+> `timed_promotion` text,
+> `start_date` CHAR(24) NOT NULL DEFAULT '',
+> `finish_date` CHAR(24) NOT NULL DEFAULT '',
+> `upsell_to` text,
+> `cross_sell` text,
+> `cross_category` CHAR(64) NOT NULL DEFAULT '',
+> `others_bought` text,
+> `times_ordered` text
+> )
+> 
+- - - [07/January/2017:12:02:34 -0500] strap - table products created: create table `products` ( 
+> `sku` char(64) NOT NULL PRIMARY KEY,
+> `description` varchar(128) NOT NULL,
+> `title` varchar(128) DEFAULT '' NOT NULL,
+> `template_page` varchar(64),
+> `comment` TEXT,
+> `thumb` varchar(128),
+> `image` varchar(64),
+> `price` DECIMAL(12,2) NOT NULL,
+> `wholesale` varchar(255),
+> `prod_group` varchar(64) NOT NULL DEFAULT '',
+> `category` varchar(64) NOT NULL DEFAULT '',
+> `tax_category` varchar(255),
+> `nontaxable` CHAR(3),
+> `weight` varchar(12) DEFAULT '0' NOT NULL,
+> `option_type` varchar(255),
+> `author` varchar(255),
+> `related` text,
+> `featured` varchar(32),
+> `gift_cert` varchar(3) DEFAULT '',
+> `download` varchar(255),
+> `dl_type` varchar(255),
+> `dl_location` varchar(255),
+> `inactive` varchar(3) DEFAULT '',
+> `url` varchar(255),
+> `sale_price` varchar(255),
+> `image_large` varchar(255)
+> )
+> 
+- - - [07/January/2017:12:02:34 -0500] strap - table variants created: create table `variants` ( 
+> `code` varchar(64) NOT NULL PRIMARY KEY,
+> `sku` varchar(64),
+> `description` varchar(128),
+> `comment` text,
+> `thumb` varchar(128),
+> `image` varchar(128),
+> `image_large` varchar(255),
+> `price` varchar(12),
+> `wholesale` varchar(255),
+> `sale_price` varchar(255),
+> `weight` varchar(12),
+> `inactive` varchar(1) default ''
+> )
+> 
+- - - [07/January/2017:12:02:34 -0500] strap - table state created: create table `state` ( 
+> `code` CHAR(8) NOT NULL PRIMARY KEY,
+> `sorder` varchar(255),
+> `country` CHAR(20) DEFAULT '' NOT NULL,
+> `state` CHAR(20) DEFAULT '' NOT NULL,
+> `name` CHAR(64) DEFAULT '' NOT NULL,
+> `tax` text,
+> `postcode` CHAR(20) DEFAULT '' NOT NULL,
+> `shipmodes` varchar(255),
+> `tax_name` varchar(255)
+> )
+> 
+- - - [07/January/2017:12:02:34 -0500] strap - table pay_cert_redeem created: create table `pay_cert_redeem` ( 
+> `code` varchar(32) NOT NULL PRIMARY KEY,
+> `pay_id` varchar(32) NOT NULL,
+> `link_tid` varchar(32) NOT NULL,
+> `trans_date` varchar(128) NOT NULL,
+> `ip_addr` varchar(64) NOT NULL,
+> `trans_type` varchar(64) NOT NULL,
+> `voided` int DEFAULT 0,
+> `captured` int DEFAULT 0,
+> `username` varchar(64),
+> `amount` decimal(12,2) NOT NULL,
+> `items` text
+> )
+> 
+- - - [07/January/2017:12:02:34 -0500] strap - table options created: create table `options` ( 
+> `code` varchar(64) primary key NOT NULL,
+> `sku` varchar(64) NOT NULL DEFAULT '',
+> `o_group` varchar(64) NOT NULL DEFAULT '',
+> `o_sort` varchar(16) NOT NULL DEFAULT '',
+> `o_default` varchar(128),
+> `o_label` text,
+> `o_value` text,
+> `o_widget` text,
+> `o_height` integer,
+> `o_width` integer,
+> `description` text,
+> `price` varchar(250),
+> `wholesale` varchar(250),
+> `display_type` text,
+> `o_simple` varchar(1)
+> )
+> 
+- - - [07/January/2017:12:02:34 -0500] strap - table ups_cache created: create table `ups_cache` ( 
+> `code` INT PRIMARY KEY AUTO_INCREMENT,
+> `weight` varchar(12),
+> `origin` varchar(12),
+> `zip` varchar(12),
+> `country` varchar(12),
+> `shipmode` varchar(12),
+> `cost` varchar(12),
+> `updated` varchar(12)
+> )
+> 
+- - - [07/January/2017:12:02:34 -0500] strap - table transactions created: create table `transactions` ( 
+> `code` varchar(32) NOT NULL PRIMARY KEY,
+> `store_id` varchar(9) DEFAULT '' NOT NULL,
+> `order_number` varchar(24) NOT NULL,
+> `session` varchar(32) NOT NULL,
+> `username` varchar(255) default '' NOT NULL,
+> `shipmode` varchar(255) NOT NULL,
+> `nitems` varchar(9) NOT NULL,
+> `subtotal` varchar(12) NOT NULL,
+> `shipping` varchar(12) NOT NULL,
+> `handling` varchar(12),
+> `salestax` varchar(12),
+> `total_cost` varchar(16) NOT NULL,
+> `fname` varchar(30),
+> `lname` varchar(30),
+> `company` varchar(30),
+> `address1` varchar(64),
+> `address2` varchar(64),
+> `city` varchar(30) NOT NULL,
+> `state` varchar(10),
+> `zip` varchar(10) DEFAULT '00000' NOT NULL,
+> `country` varchar(10) DEFAULT '' NOT NULL,
+> `phone_day` varchar(20),
+> `phone_night` varchar(20),
+> `fax` varchar(20),
+> `email` varchar(255),
+> `b_fname` varchar(30),
+> `b_lname` varchar(30),
+> `b_company` varchar(30),
+> `b_address1` varchar(64),
+> `b_address2` varchar(64),
+> `b_city` varchar(30),
+> `b_state` varchar(10),
+> `b_zip` varchar(10) DEFAULT '00000' NOT NULL,
+> `b_country` varchar(10) DEFAULT '' NOT NULL,
+> `b_phone` varchar(20),
+> `order_date` varchar(32) NOT NULL,
+> `order_ymd` varchar(128),
+> `order_wday` varchar(128),
+> `payment_method` varchar(128),
+> `po_number` varchar(128),
+> `avs` varchar(32),
+> `order_id` varchar(32),
+> `auth_code` varchar(32),
+> `update_date` timestamp,
+> `status` varchar(32),
+> `tracking_number` varchar(64),
+> `affiliate` varchar(128),
+> `campaign` varchar(128),
+> `parent` varchar(9),
+> `archived` varchar(1) DEFAULT '',
+> `deleted` varchar(1) DEFAULT '',
+> `complete` varchar(1) DEFAULT '',
+> `comments` text,
+> `currency_locale` varchar(32),
+> `pay_cert_total` varchar(16),
+> `pay_cert_ord_total` varchar(16)
+> )
+> 
+- - - [07/January/2017:12:02:34 -0500] strap - table pricing created: create table `pricing` ( 
+> `sku` char(64) NOT NULL PRIMARY KEY,
+> `price_group` CHAR(12) DEFAULT '' NOT NULL,
+> `q2` char(12),
+> `q5` char(12),
+> `q10` char(12),
+> `q25` char(12),
+> `q100` char(12),
+> `w2` char(12),
+> `w5` char(12),
+> `w10` char(12),
+> `w25` char(12),
+> `w100` char(12)
+> )
+> 
+- - - [07/January/2017:12:02:34 -0500] strap - table country created: create table `country` ( 
+> `code` CHAR(3) NOT NULL PRIMARY KEY,
+> `sorder` varchar(255),
+> `region` varchar(255),
+> `selector` CHAR(3),
+> `shipmodes` VARCHAR(255),
+> `name` VARCHAR(64) DEFAULT '' NOT NULL,
+> `iso` CHAR(3) DEFAULT '' NOT NULL,
+> `isonum` CHAR(3) DEFAULT '' NOT NULL,
+> `tax` varchar(255),
+> `no_state` varchar(255)
+> )
+> 
+- - - [07/January/2017:12:02:34 -0500] strap - table stock_alert created: create table `stock_alert` ( 
+> `uid` int(11) NOT NULL auto_increment PRIMARY KEY,
+> `sku` varchar(20) DEFAULT '' NOT NULL,
+> `price` decimal(10,2) DEFAULT '0.00' NOT NULL,
+> `description` varchar(255) DEFAULT '' NOT NULL,
+> `fname` varchar(255) DEFAULT NULL,
+> `lname` varchar(255) DEFAULT NULL,
+> `email` varchar(255) DEFAULT '' NOT NULL,
+> `date` date DEFAULT '0000-00-00' NOT NULL
+> )
+> 

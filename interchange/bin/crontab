@@ -20,16 +20,16 @@
 # Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
 # MA  02110-1301  USA.
 
-use lib '/home/samb/d/projects/solrstrap/interchange/lib';
+use lib '/home/samb/camp/interchange/lib';
 #use lib '~_~INSTALLPRIVLIB~_~';
-use lib '/home/samb/d/projects/solrstrap/interchange';
+use lib '/home/samb/camp/interchange';
 #use lib '~_~INSTALLARCHLIB~_~';
 
 BEGIN {
 
 	($Global::VendRoot = $ENV{MINIVEND_ROOT})
 		if defined $ENV{MINIVEND_ROOT};
-	$Global::VendRoot = $Global::VendRoot || '/home/samb/d/projects/solrstrap/interchange';
+	$Global::VendRoot = $Global::VendRoot || '/home/samb/camp/interchange';
 #	$Global::VendRoot = $Global::VendRoot || '~_~INSTALLARCHLIB~_~';
 
 	if(-f "$Global::VendRoot/interchange.cfg") {
