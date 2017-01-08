@@ -1,0 +1,16 @@
+<dataConfig>
+  <dataSource type="JdbcDataSource"
+              driver="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:8919/strap"
+              user="root"
+              password="toor"/>
+
+    <document name="products">
+       <entity dataSource="strap" name="entity1" query="select sku, price, image, description from products">
+            <field column="sku" name="sku" />
+            <field column="price" name="price" />
+            <field column="image" name="image" />
+            <field column="description" name="description" />
+        </entity>
+    </document>
+</dataConfig>

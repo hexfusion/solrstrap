@@ -1,0 +1,21 @@
+#!/bin/sh
+
+export TZ=EST5EDT
+export LC_ALL=C
+export PERL_SIGNALS=unsafe
+
+icroot=/home/strap/live/interchange
+rundir=$icroot/var/run/
+pidfile=$icroot/var/run/interchange.pid
+
+export MINIVEND_ROOT=$icroot
+export MINIVEND_DISABLE_UTF8=yes
+export INTERCHANGE_INSTALLPRIVLIB=$icroot/lib
+export INTERCHANGE_INSTALLARCHLIB=$icroot
+
+exec $icroot/bin/interchange.bin \
+    -pidfile $pidfile \
+    -rundir $rundir \
+    PIDfile=$pidfile \
+    "$@"
+
